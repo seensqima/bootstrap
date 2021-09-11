@@ -1,0 +1,82 @@
+.carousel-box{
+    margin-top: 100px;
+}
+p{
+    color: gray;
+    font-size: 13px;
+}
+h1{
+    text-transform: uppercase;
+}
+.indic,.a{
+    background: orange;
+}
+.carousel-indicators button{
+    background-color: orange;
+}
+.a{
+    background-color: orange;
+}
+h5{
+    font-weight: 600;
+}
+.see-all-link{
+    text-decoration: none;
+    font-weight: bold;
+}
+.card{
+    border: none;
+    box-shadow: 0 0 20px #dfdfdf;
+    padding: 40px 0 10px 0;
+    border-radius: 10px;
+}
+.navbg{
+    background-color: white;
+    box-shadow: 0 0 10px #c0c0c057;
+}
+.cathead{
+    margin: 50px 0 20px 0;
+}
+.cat{
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.cat::after{
+    content: '';
+    background: linear-gradient(to left, orange, gold);
+    position: absolute;
+    height: 6px;
+    border-radius: 5px;
+    width: 80px;
+    left: calc(50% - 40px);
+}
+.bag, .perf, .shoe{
+    margin: 25px 0;
+    padding: 20px;
+    box-shadow: 0 0 15px #c0c0c049;
+}
+.bag{
+    border-radius: 5px 10px 5px 30px;
+}
+.perf{
+    border-radius: 10px 5px 30px 5px;
+
+}
+.shoe{
+    border-radius: 10px 5px 30px 5px;
+}
+.bag span, .perf span, .shoe span{
+    font-weight: bold;
+    padding: 20px 0 0 0;
+}
+.fas{
+    margin: 0 0 0 5px;
+    font-size: 12px;
+    color: whitesmoke;
+}
+.btn{
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
